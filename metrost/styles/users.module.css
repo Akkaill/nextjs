@@ -1,0 +1,198 @@
+.kku {
+    margin: 0;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+   
+
+}
+
+.a{
+    cursor: pointer;
+    background-color: rgb(241, 139, 139);
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    padding:  0 20px;
+    position: relative;
+  
+}
+.b{
+    cursor: pointer;
+    padding:  0 40px;
+    background-color: rgb(241, 166, 166);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    position: relative;
+}
+.c{
+    cursor: pointer;
+    padding:  0 40px;
+    background-color: rgb(213, 98, 98);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    position: relative;
+}
+
+.d{
+    cursor: pointer;
+    padding:  0 40px;
+    background-color: rgb(255, 146, 146);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    position: relative;
+}
+.a::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    left: 0%;
+    height: 3px;
+    display: block;
+    transition: all ease-in-out 400ms;
+}
+.a::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    width: 0%;
+    height: 3px;
+    right: 0%;
+    display: block;
+    transition: all ease-in-out 400ms;
+ 
+}
+.a:hover::before{
+    background-color:white;
+    color: black;
+    width: 100%;
+   
+}
+.a:hover::after{
+    background-color:white;
+    color: black;
+    width: 100%;
+}
+.b::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 3px;
+    right: 0%;
+    height: 0%;
+    display: block;
+    transition: all ease-in-out 400ms;
+}
+.b::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    width: 3px;
+    height: 0%;
+    left: 0%;
+    display: block;
+    transition: all ease-in-out 400ms;
+ 
+}
+.b:hover::before{
+    background-color:white;
+    color: black;
+    height: 100%;
+   
+}
+.b:hover::after{
+    background-color:white;
+    color: black;
+    height: 100%;
+}
+.c::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 0%;
+   
+    height: 3px;
+    display: block;
+    transition: all ease-in-out 400ms;
+}
+.c::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    width: 0%;
+    height: 3px;
+   
+    display: block;
+    transition: all ease-in-out 400ms;
+ 
+}
+.c:hover::before{
+    background-color:white;
+    color: black;
+    width: 100%;
+   
+}
+.c:hover::after{
+    background-color:white;
+    color: black;
+    width: 100%;
+}
+.d::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    width: 0%;
+    left: 0%;
+    height: 0%;
+    display: block;
+    transition: all ease-in-out 400ms;
+}
+.d::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 0%;
+    right: 0%;
+    display: block;
+    transition:all ease-in-out 400ms;
+ 
+}
+.d:hover::before{
+    background-color:white;
+    color: black;
+    height: 100%;
+    width: 100%;
+  
+   
+}
+.d:hover::after{
+    background-color:white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+  
+
